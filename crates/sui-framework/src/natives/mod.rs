@@ -217,6 +217,7 @@ pub fn all_natives(
             "is_one_time_witness",
             make_native!(types::is_one_time_witness),
         ),
+        ("types", "hash_type_tag", make_native!(types::hash_type_tag)),
         (
             "groth16",
             "verify_groth16_proof_internal",
